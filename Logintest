@@ -1,0 +1,24 @@
+from selenium import webdriver
+import time
+browser = webdriver.Chrome()
+
+browser.get("https://seam.riskscore.cards/Account/Login?ReturnUrl=%2FDashboard/")
+
+time.sleep(3)
+
+Email = browser.find_element_by_name("Email")
+Password = browser.find_element_by_name("Password")
+
+Email.send_keys("ipek.ors@normshield.com")
+Password.send_keys("Otomasyon01_r")
+
+time.sleep(3)
+
+login = browser.find_element_by_xpath(" //*[@id='loginForm']/button")
+login.click()
+
+browser.maximize_window ()
+
+time.sleep(5)
+
+browser.close()
