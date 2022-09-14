@@ -10,8 +10,8 @@ time.sleep(3)
 Email = browser.find_element_by_name("Email")
 Password = browser.find_element_by_name("Password")
 
-Email.send_keys("ipek_ca@blackkite.com")
-Password.send_keys("Otomasyon///_ca")
+Email.send_keys("xxx@blackkite.com")
+Password.send_keys("Otomasyon///")
 
 time.sleep(3)
 
