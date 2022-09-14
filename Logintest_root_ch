@@ -9,8 +9,9 @@ time.sleep(3)
 Email = browser.find_element_by_name("Email")
 Password = browser.find_element_by_name("Password")
 
-Email.send_keys("ipek.ors@normshield.com")
-Password.send_keys("Otomasyon01_r")
+#should have root rights so think only example
+Email.send_keys("xxxx@normshield.com")
+Password.send_keys("Otomasyon01xxx)
 
 time.sleep(3)
 
