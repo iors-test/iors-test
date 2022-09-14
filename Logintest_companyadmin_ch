@@ -2,6 +2,7 @@ from selenium import webdriver
 import time
 browser = webdriver.Chrome()
 
+#Company project web login page via VPN
 browser.get("https://seam.riskscore.cards/Account/Login?ReturnUrl=%2FDashboard/")
 
 time.sleep(3)
@@ -10,7 +11,7 @@ Email = browser.find_element_by_name("Email")
 Password = browser.find_element_by_name("Password")
 
 Email.send_keys("ipek_ca@blackkite.com")
-Password.send_keys("Otomasyon01_ca")
+Password.send_keys("Otomasyon///_ca")
 
 time.sleep(3)
 
